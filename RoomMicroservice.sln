@@ -3,9 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoomMicroservice", "RoomMicroservice.csproj", "{46731F02-76C7-4811-A84E-8AF25004736D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoomMicroservice", "RoomMicroservice.csproj", "{46731F02-76C7-4811-A84E-8AF25004736D}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{5E90004D-D17B-47EE-B3A8-7D48410A3DBC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{81B2736A-4DD2-423B-A76A-E24E08805567}"
+	ProjectSection(SolutionItems) = preProject
+		Graph1.dgml = Graph1.dgml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

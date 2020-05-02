@@ -3,7 +3,7 @@
   <PropertyGroup Label="Globals">
     <ProjectVersion>2.1</ProjectVersion>
     <DockerTargetOS>Linux</DockerTargetOS>
-    <ProjectGuid>d2d53c33-bf53-407e-83ba-b878a187cf2c</ProjectGuid>
+    <ProjectGuid>5e90004d-d17b-47ee-b3a8-7d48410a3dbc</ProjectGuid>
     <DockerLaunchAction>LaunchBrowser</DockerLaunchAction>
     <DockerServiceUrl>{Scheme}://localhost:{ServicePort}/weatherforecast</DockerServiceUrl>
     <DockerServiceName>roommicroservice</DockerServiceName>

@@ -18,11 +18,9 @@ services:
   roommicroservice:
     image: sibby91/roommicroservice
     ports:
-      - "5101:80"
+      - 81
     environment: 
       - SERVICE_PORTS=80
-    extra_hosts: 
-      - "roommicroservice:10.0.75.1"
     deploy:
      replicas: 2
      update_config:
